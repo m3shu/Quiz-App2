@@ -62,7 +62,12 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  border: 1px solid #bfbfbf;
 }
+
+  .quiz-page-answer.selected {
+    border: 1px solid #b40078;
+  }
 
 .quiz-page-submit {
   clear: both;
