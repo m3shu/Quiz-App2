@@ -37,11 +37,11 @@
 }
 
   .final-page-reaction-icon.happy {
-    background-image: url("images/Happy.png");
+    background-image: url("images/happy.png");
   }
 
   .final-page-reaction-icon.sad {
-    background-image: url("images/Sad.png");
+    background-image: url("images/sad.png");
   }
 
   .final-page-reaction-icon label {
