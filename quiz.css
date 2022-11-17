@@ -42,13 +42,15 @@
   bottom: 0;
   width: 100%;
   background-color: rgba(255,255,255,0.80);
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }
 
 .quiz-page-answer-wrapper {
   display: grid;
   grid-template-columns: 50% 50%;
   margin: 0 10%;
+  width: 70%;
+  float: left;
 }
 
 .quiz-page-answer {
@@ -70,7 +72,6 @@
   }
 
 .quiz-page-submit {
-  clear: both;
   display: flex;
   justify-content: space-around;
 }
@@ -81,9 +82,11 @@
     background-color: #8bb90f;
     padding: 12px 40px;
     cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Calibri;
   }
-
-    .quiz-page-submit > button:hover {
-      transform: scale(1.05);
-      transition: all 0.25s;
-    }
