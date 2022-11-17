@@ -23,25 +23,30 @@
 
 .final-page-reaction-icons-holder {
   position: absolute;
-  top: 250px;
+  top: 200px;
   left: 30px;
   display: flex;
 }
 
 .final-page-reaction-icon {
-  height: 48px;
-  width: 48px;
+  height: 65px;
+  width: 65px;
   background-size: contain;
   background-repeat: no-repeat;
   margin: 5px;
 }
 
   .final-page-reaction-icon.happy {
-    background-image: url("images/Happy.jpg");
+    background-image: url("images/Happy.png");
   }
 
   .final-page-reaction-icon.sad {
-    background-image: url("images/Sad.jpg");
+    background-image: url("images/Sad.png");
+  }
+
+  .final-page-reaction-icon label {
+    position: relative;
+    top: 65px;
   }
 
 .final-page-black-text {
