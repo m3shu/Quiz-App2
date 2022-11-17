@@ -24,7 +24,7 @@
   position: absolute;
   height: 100px;
   width: 40%;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   font-size: 18px;
@@ -48,14 +48,14 @@
 .quiz-page-answer-wrapper {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin: 0 200px;
+  margin: 0 10%;
 }
 
 .quiz-page-answer {
   background-color: #bfbfbf;
   margin: 10px 15px;
   padding: 10px 25px;
-  height: 50px;
+  min-height: 50px;
   font-family: Calibri;
   cursor: pointer;
   font-weight: bold;
