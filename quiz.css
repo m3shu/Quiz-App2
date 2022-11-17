@@ -1,0 +1,84 @@
+.quiz-page-teilsein-logo {
+  background-image: url("images/TeilSeinPink.png");
+  height: 30px;
+  width: 145px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.quiz-page-title {
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 75px;
+  left: 30px;
+}
+
+.quiz-page-question {
+  background-color: white;
+  border: 1px solid #b40078;
+  position: absolute;
+  height: 100px;
+  width: 40%;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 18px;
+  font-family: Calibri;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+
+.quiz-page-answer-panel {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255,255,255,0.80);
+  box-sizing: border-box;
+}
+
+.quiz-page-answer-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 200px;
+}
+
+.quiz-page-answer {
+  background-color: #bfbfbf;
+  margin: 10px 15px;
+  padding: 10px 25px;
+  height: 50px;
+  font-family: Calibri;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.quiz-page-submit {
+  clear: both;
+  display: flex;
+  justify-content: space-around;
+}
+
+  .quiz-page-submit > button {
+    border: none;
+    color: white;
+    background-color: #8bb90f;
+    padding: 12px 40px;
+    cursor: pointer;
+  }
+
+    .quiz-page-submit > button:hover {
+      transform: scale(1.05);
+      transition: all 0.25s;
+    }

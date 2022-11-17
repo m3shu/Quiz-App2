@@ -1,0 +1,92 @@
+.copy-right {
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
+
+.welcome-page-semyou-logo {
+  background-image: url("images/semyou-logo.png");
+  height: 23px;
+  width: 106px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.welcome-page-teilsein-logo {
+  background-image: url("images/TeilSeinPinkWhite.png");
+  height: 30px;
+  width: 145px;
+  position: absolute;
+  top: 80px;
+  left: 350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.welcome-page-title {
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 75px;
+  left: 60px;
+}
+
+.welcome-page-quiz-time {
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 175px;
+  left: 60px;
+}
+
+.welcome-page-name-label {
+  font-size: 12px;
+  color: white;
+  font-family: 'Segoe UI';
+  position: absolute;
+  top: 300px;
+  left: 60px;
+}
+
+.welcome-page-name {
+  position: absolute;
+  top: 320px;
+  left: 60px;
+}
+
+  .welcome-page-name > input {
+    height: 26px;
+    border: 1px solid #808080;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 8px;
+    border-radius: 3px;
+  }
+
+.welcome-page-start-quiz-button {
+  position: absolute;
+  top: 360px;
+  left: 60px;
+}
+
+  .welcome-page-start-quiz-button > button {
+    background-color: #8bb90f;
+    border: none;
+    padding: 5px 12px;
+    color: white;
+    font-family: Calibri;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+
+
+    .welcome-page-start-quiz-button > button:hover {
+      transform: scale(1.05);
+      transition: all 0.25s;
+    }

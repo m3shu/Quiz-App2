@@ -1,0 +1,85 @@
+
+.final-page-teilsein-logo {
+  background-image: url("images/TeilSeinPink.png");
+  height: 30px;
+  width: 145px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.final-page-title {
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 75px;
+  left: 30px;
+}
+
+
+
+.final-page-reaction-icons-holder {
+  position: absolute;
+  top: 250px;
+  left: 30px;
+  display: flex;
+}
+
+.final-page-reaction-icon {
+  height: 48px;
+  width: 48px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 5px;
+}
+
+  .final-page-reaction-icon.happy {
+    background-image: url("images/Happy.jpg");
+  }
+
+  .final-page-reaction-icon.sad {
+    background-image: url("images/Sad.jpg");
+  }
+
+.final-page-black-text {
+  color: #262626;
+  font-size: 18px;
+  position: absolute;
+  top: 350px;
+  left: 30px;
+  font-weight: bold;
+}
+
+.final-page-white-text {
+  color: white;
+  font-size: 36px;
+  position: absolute;
+  bottom: 75px;
+  left: 30px;
+  font-weight: bold;
+}
+
+.final-page-upper-image {
+  background-image: url("images/Super Woman.jpg");
+  height: 50%;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.final-page-lower-image {
+  background-image: url("images/Superman.jpg");
+  height: 50%;
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
