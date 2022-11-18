@@ -25,19 +25,19 @@
   </div>
 
   <div class="final-page-reaction-icons-holder">
-    <div class="final-page-reaction-icon happy">
-      <label>Frage 1</label>      
+    <div class="final-page-reaction-icon">
+      <label>Frage 1</label>
     </div>
-    <div class="final-page-reaction-icon happy">
+    <div class="final-page-reaction-icon">
       <label>Frage 2</label>
     </div>
-    <div class="final-page-reaction-icon sad">
+    <div class="final-page-reaction-icon">
       <label>Frage 3</label>
     </div>
-    <div class="final-page-reaction-icon sad">
+    <div class="final-page-reaction-icon">
       <label>Frage 4</label>
     </div>
-    <div class="final-page-reaction-icon sad">
+    <div class="final-page-reaction-icon">
       <label>Frage 5</label>
     </div>
 
@@ -59,6 +59,51 @@
   <div class="final-page-lower-image"></div>
 
 
+
   <script type="text/javascript" src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+  <script>
+    const jsConfetti = new JSConfetti();
+    setTimeout(function () {
+      jsConfetti.addConfetti({
+        emojis: ["🎉", "🥳", "👏", "⚡", "🎈"],
+        emojiSize: 50,
+        confettiNumber: 200,
+        confettiColors: [
+          "#ff0a54",
+          "#ff477e",
+          "#ff7096",
+          "#ff85a1",
+          "#fbb1bd",
+          "#f9bec7",
+        ],
+      });
+    }, 10);
+
+    var className = "";
+
+    if (localStorage.getItem(1) === "BD") className = "happy";
+    else className = "sad";
+    $(".final-page-reaction-icon:eq(0)").addClass(className);
+
+
+    if (localStorage.getItem(2) === "AC") className = "happy";
+    else className = "sad";
+    $(".final-page-reaction-icon:eq(1)").addClass(className);
+
+    //if (localStorage.getItem(3) === "A") className = "happy";
+    //else className = "sad";
+    className = "happy";
+    $(".final-page-reaction-icon:eq(2)").addClass(className);
+
+    if (localStorage.getItem(4) === "D") className = "happy";
+    else className = "sad";
+    $(".final-page-reaction-icon:eq(3)").addClass(className);
+
+    if (localStorage.getItem(5) === "B") className = "happy";
+    else className = "sad";
+    $(".final-page-reaction-icon:eq(4)").addClass(className);
+
+  </script>
 </body>
 </html>

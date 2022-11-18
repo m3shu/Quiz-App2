@@ -15,6 +15,7 @@
       background-image: url("images/Wow.jpg");
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: 40% 0;
     }
   </style>
 
@@ -45,7 +46,7 @@
 
   <!--<form action="#" method="post">-->
     <div class="welcome-page-name">
-      <input type="text" name="name" value="" />
+      <input spellcheck="false" type="text" name="name" value="" onkeypress="goToQuizByPressingEnter(event)"/>
     </div>
 
     <div class="welcome-page-start-quiz-button">

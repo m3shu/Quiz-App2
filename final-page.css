@@ -29,11 +29,11 @@
 }
 
 .final-page-reaction-icon {
-  height: 65px;
-  width: 65px;
+  height: 60px;
+  width: 60px;
   background-size: contain;
   background-repeat: no-repeat;
-  margin: 5px;
+  margin: 1px;
 }
 
   .final-page-reaction-icon.happy {
@@ -76,6 +76,7 @@
   right: 0;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 70% 0;
 }
 
 .final-page-lower-image {
@@ -87,4 +88,14 @@
   right: 0;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 70% 0;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .final-page-upper-image,
+  .final-page-lower-image {
+    display: none;
+  }
 }
